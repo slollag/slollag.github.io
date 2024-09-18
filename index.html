@@ -1,49 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black and Red Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sebastian Gallo - CS @ Brown</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/minireset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="about">
-            <h1>About Me</h1>
-            <p>Welcome to my website! My name is Sebastian Gallo and I'm a sophomore at Brown University studying Computer Science.</p>
-        </section>
-
-        <section id="skills">
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Java</li>
-                <li>Python</li>
-            </ul>
-        </section>
-
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>A description of your first project goes here.</p>
+    <div class="wallpaper"></div>
+    <div class="content">
+        <aside class="side">
+            <figure class="picture">
+                <div class="picture-shadow"></div>
+                <img id="pictureImage" class="picture-image" src="images/sebi.jpeg">
+            </figure>
+        </aside>
+        <main class="about">
+            <h1 class="name">
+                Hi, I'm Sebastian Gallo
+            </h1>
+            <p class="job">
+                Student
+            </p>
+            <hr class="hr">
+            <div class="description">
+                <p>
+                    I'm a sophomore at Brown University studying computer science.
+                </p>
             </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>A description of your second project goes here.</p>
+            <div class="contact">
+                <a class="button" href="mailto:sebastian_gallo@brown.edu">
+                    Get in touch
+                </a>
+                <ul class="social">
+                    <li>
+                        <a>
+                            <i class="fab fa-linkedin" href="https://www.linkedin.com/in/sebastian-leonard-gallo/"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="fab fa-github" href="https://github.com/slollag"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="fab fa-instagram" href="https://www.instagram.com/sebigallo_/"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="fab fa-spotify" href="https://open.spotify.com/user/sag05-us"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section>
-    </main>
+        </main>
+    </div>
 </body>
+
 </html>
