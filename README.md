@@ -1,1 +1,1 @@
-# Sebastian Gallo - Personal Website
+Sebastian Gallo - Personal Website
